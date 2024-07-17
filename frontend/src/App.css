@@ -1,0 +1,401 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+a {
+  text-decoration: none;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Button3D.css */
+.button-3d {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db; /* Button background color */
+  color: #fff; /* Button text color */
+  box-shadow: 0 5px 0 #2980b9; /* Button shadow color and depth */
+
+  /* Transition for a smooth hover effect */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect to create a 3D lift */
+.button-3d:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 0 #2980b9;
+}
+
+/* Active effect to create a 3D press */
+.button-3d:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+/* .trip-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  border-radius: 8px;
+}
+
+.trip-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+} */
+/* .trip-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  border-radius: 8px;
+}
+
+.trip-card:hover {
+  transform: scale(1.05);
+}
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.rate {
+  font-size: 1.1rem;
+  color: #007bff; /* Change color as per your preference 
+  font-weight: bold;
+}
+.riri {
+  background-color: whitesmoke;
+
+  padding: 8px 10px 8px 10px;
+  border-radius: 25px;
+}
+.card-text {
+  font-size: 1rem;
+  color: #333;
+} */
+/* .trip-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  border-radius: 8px;
+}
+
+.trip-card:hover {
+  transform: scale(1.05);
+} */
+/* 
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.rate {
+  font-size: 1.1rem;
+  color: #007bff; /* Change color as per your preference 
+  font-weight: bold;
+} */
+
+.riri {
+  background-color: whitesmoke;
+  padding: 8px 10px;
+  border-radius: 25px;
+}
+/* 
+.card-text {
+  font-size: 1rem;
+  color: #333;
+}
+.card-text1 {
+  font-size: 1rem;
+  font-family: auto;
+} */
+/* 
+.boxed-btn3 {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.boxed-btn3:hover {
+  background-color: #0056b3;
+} */
+
+.boxed-btn3 {
+  background: #1ec6b6;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 28px;
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  border: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: capitalize;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* line 42, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_btn.scss */
+.boxed-btn3:hover {
+  background: #ff4a52;
+  color: #fff !important;
+}
+
+/* line 46, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_btn.scss */
+.boxed-btn3:focus {
+  outline: none;
+}
+/* SingleTrip.css */
+.selected-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.selected-image:hover {
+  transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+.small-image {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.small-image:hover {
+  opacity: 0.7;
+}
+
+.trip-heading {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.trip-details {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.book-now-btn {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.book-now-btn:hover {
+  background-color: #0056b3;
+}
+
+.instructor-card {
+  border: 2px solid #007bff;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* .card-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+} */
+
+.instructor-info {
+  font-family: "Arial", sans-serif;
+}
+
+.info-item {
+  margin-bottom: 10px;
+}
+
+.info-label {
+  font-weight: bold;
+  color: #007bff;
+}
+.info-label1 {
+  font-size: 20px;
+  font-family: "monica-ext-font_YIBBBFG";
+  font-weight: bold;
+  margin-left: 8%;
+  color: black;
+}
+.trip-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 10px;
+  transition: all 0.3s;
+}
+
+.trip-button:focus {
+  outline: none;
+}
+
+.trip-button.active .button-content {
+  border-bottom: 2px solid #000;
+}
+
+.button-content {
+  text-align: center;
+}
+
+.button-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button-icon svg {
+  fill: #000;
+}
+
+.trip-button span {
+  display: block;
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+/* Custom CSS */
+.main-image-container {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.main-image:hover {
+  transform: scale(1.05);
+}
+
+.thumbnail {
+  transition: transform 0.3s ease-in-out;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+.booking-details-container {
+  background-color: #f4f4f9;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.booking-details-content {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.confirmation-message {
+  font-size: 1.2em;
+  color: #28a745;
+}
+
+.primary-btn,
+.secondary-btn {
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.primary-btn {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.primary-btn:hover {
+  background-color: #0056b3;
+}
+
+.secondary-btn {
+  background-color: #6c757d;
+  color: #ffffff;
+}
+
+.secondary-btn:hover {
+  background-color: #5a6268;
+}
