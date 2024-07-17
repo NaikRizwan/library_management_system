@@ -128,10 +128,3 @@ node app
 
 Feel free to fork this project, make improvements, and send a pull request. Your contributions are welcome!
 
-## License
-
-This project is licensed under the MIT License.
-
----
-
-This version should meet your requirements and be suitable for your GitHub README file.
