@@ -97,9 +97,9 @@ node app
 - Configure your MongoDB connection and other settings in `backend/config.js`.
 - Add this on connfig.dotenv
 ```bash
-- SECRET_KEY=RIZWANMOHAMMOFSNAIKNAIKRIZWAN
-- EMAIL=bhiirizwan@gmail.com
-- PASSWORD=rizwan@26
+ SECRET_KEY=RIZWANMOHAMMOFSNAIKNAIKRIZWAN
+ EMAIL=bhiirizwan@gmail.com
+ PASSWORD=rizwan@26
 
 ```
 ### Frontend
