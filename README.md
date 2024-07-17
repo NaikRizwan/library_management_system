@@ -29,7 +29,7 @@ Welcome to the **Library Management System**, a comprehensive application design
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/library-management-system.git
+git clone https://github.com/NaikRizwan/library_management_system.git
 cd library-management-system
 ```
 
